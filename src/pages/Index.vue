@@ -9,9 +9,9 @@
       <div class="container">
         <div class="content-center brand">
           <img class="n-logo" src="img/now-logo.png" alt="" />
-          <h1 class="h1-seo">Izađimo iz gliba</h1>
+          <h1 class="h1-seo">Izađimo iz gliba 😊</h1>
           <h3>
-            Odgajimo zdravu Crnu Goru. Srušimo barijere.
+            Odgajimo zdravu Crnu Goru. Srušimo nepotrebne barijere.
           </h3>
         </div>
         <h6 class="category category-absolute">
