@@ -14,7 +14,7 @@
           style="max-height:25px"
           alt=""
         />
-        nevladina organizacija Mali Miško
+        CDD Crna Gora
       </router-link>
       <el-popover
         ref="popover1"
@@ -59,7 +59,7 @@
           target="_blank"
         >
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
-          <p>Manifest</p>
+          <p>Statut</p>
         </a>
         <el-popover
           ref="popover5"
@@ -69,7 +69,7 @@
           trigger="hover"
         >
           <div class="popover-body">
-            Download-ujte i pročitajte naš Manifest.
+            Download-ujte i pročitajte naš Statut.
           </div>
         </el-popover>
       </li>

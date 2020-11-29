@@ -9,7 +9,7 @@
         <ul>
           <li>
             <a href="https://www.direktnademokratija.me">
-              Mali Miško
+              Kontakt
             </a>
           </li>
           <li>
@@ -19,7 +19,7 @@
           </li>
         </ul>
       </nav>
-      <div class="copyright">&copy; {{ year }}, Designed by Mali Miško.</div>
+      <div class="copyright">&copy; {{ year }}, Designed by CDD Crna Gora.</div>
     </div>
   </footer>
 </template>

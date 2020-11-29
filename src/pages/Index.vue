@@ -10,12 +10,15 @@
         <div class="content-center brand">
           <img class="n-logo" src="img/now-logo.png" alt="" />
           <h1 class="h1-seo">Izađimo iz gliba 😊</h1>
-          <h3>
+          <h4>
             Odgajimo zdravu Crnu Goru. Srušimo nepotrebne barijere.
-          </h3>
+          </h4>
+          <h2>
+            Centar Direktne Demokratije.
+          </h2>
         </div>
         <h6 class="category category-absolute">
-          Designed & coded by Mali Miško.
+          Designed & coded by CDD Crna Gora.
         </h6>
       </div>
     </div>
