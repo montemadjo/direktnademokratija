@@ -53,6 +53,17 @@
       </li>
       <li class="nav-item">
         <a
+          v-popover:popover2
+          class="nav-link"
+          href="https://www.direktnademokratija.me"
+          target="_blank"
+        >
+          <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
+          <p>O nama</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
           v-popover:popover5
           class="nav-link btn btn-neutral"
           href="https://www.direktnademokratija.me/manifest"
@@ -72,6 +83,28 @@
             Download-ujte i pročitajte naš Statut.
           </div>
         </el-popover>
+      </li>
+      <li class="nav-item">
+        <a
+          v-popover:popover2
+          class="nav-link"
+          href="https://www.direktnademokratija.me"
+          target="_blank"
+        >
+          <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
+          <p>Lokalni projekti</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          v-popover:popover2
+          class="nav-link"
+          href="https://www.direktnademokratija.me"
+          target="_blank"
+        >
+          <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
+          <p>Sugestije</p>
+        </a>
       </li>
 
       <li class="nav-item">
