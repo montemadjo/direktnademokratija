@@ -37,6 +37,17 @@
           target="_blank"
         >
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
+          <p>Home</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          v-popover:popover2
+          class="nav-link"
+          href="https://www.direktnademokratija.me"
+          target="_blank"
+        >
+          <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>International resources</p>
         </a>
         <el-popover
@@ -103,10 +114,21 @@
           target="_blank"
         >
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
-          <p>Sugestije</p>
+          <p>Globalni projekat</p>
         </a>
       </li>
 
+      <li class="nav-item">
+        <a
+          v-popover:popover2
+          class="nav-link"
+          href="https://www.direktnademokratija.me"
+          target="_blank"
+        >
+          <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
+          <p>Sugestije</p>
+        </a>
+      </li>
       <li class="nav-item">
         <a
           class="nav-link"
