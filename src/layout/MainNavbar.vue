@@ -96,15 +96,15 @@
         </el-popover>
       </li>
       <li class="nav-item">
-        <a
+        <router-link
           v-popover:popover2
           class="nav-link"
-          href="https://www.direktnademokratija.me"
+          to="/lokal"
           target="_blank"
         >
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>Lokalni projekti</p>
-        </a>
+        </router-link>
       </li>
       <li class="nav-item">
         <a

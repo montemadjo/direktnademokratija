@@ -2,7 +2,9 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Index from './pages/Index.vue';
 import Landing from './pages/Landing.vue';
+import Lokal from './pages/Lokal.vue';
 import Login from './pages/Login.vue';
+import Paja from './pages/Paja.vue';
 import Profile from './pages/Profile.vue';
 import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
@@ -31,9 +33,26 @@ export default new Router({
       }
     },
     {
+      path: '/lokal',
+      name: 'lokal',
+      components: { default: Lokal, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black'}
+      }
+    },
+    {
       path: '/login',
       name: 'login',
       components: { default: Login, header: MainNavbar },
+      props: {
+        header: { colorOnScroll: 400 }
+      }
+    },
+    {
+      path: '/paja',
+      name: 'paja',
+      components: { default: Paja, header: MainNavbar },
       props: {
         header: { colorOnScroll: 400 }
       }
