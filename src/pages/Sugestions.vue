@@ -8,7 +8,7 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">Lokalni projekti.</h1>
+          <h1 class="title">Sugestije.</h1>
           <div class="text-center">
             <a href="#pablo" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-facebook-square"></i>
@@ -230,7 +230,7 @@
 <script>
 import { Button, FormGroupInput } from "@/components";
 export default {
-  name: "lokal",
+  name: "sugestions",
   bodyClass: "landing-page",
   components: {
     [Button.name]: Button,

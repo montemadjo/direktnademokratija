@@ -1,10 +1,12 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Index from './pages/Index.vue';
-import Landing from './pages/Landing.vue';
-import Lokal from './pages/Lokal.vue';
+import International from './pages/International.vue';
+import About from './pages/About.vue';
+import Local from './pages/Local.vue';
+import Global from './pages/Global.vue';
+import Sugestions from './pages/Sugestions.vue';
 import Login from './pages/Login.vue';
-import Paja from './pages/Paja.vue';
 import Profile from './pages/Profile.vue';
 import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
@@ -24,18 +26,44 @@ export default new Router({
       }
     },
     {
-      path: '/landing',
-      name: 'landing',
-      components: { default: Landing, header: MainNavbar, footer: MainFooter },
+      path: '/international',
+      name: 'international',
+      components: { default: International, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
       }
     },
     {
-      path: '/lokal',
-      name: 'lokal',
-      components: { default: Lokal, header: MainNavbar, footer: MainFooter },
+      path: '/about',
+      name: 'about',
+      components: { default: About, header: MainNavbar },
+      props: {
+        header: { colorOnScroll: 400 }
+      }
+    },
+    {
+      path: '/local',
+      name: 'local',
+      components: { default: Local, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black'}
+      }
+    },
+    {
+      path: '/global',
+      name: 'global',
+      components: { default: Global, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black'}
+      }
+    },
+    {
+      path: '/sugestions',
+      name: 'sugestions',
+      components: { default: Sugestions, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black'}
@@ -45,14 +73,6 @@ export default new Router({
       path: '/login',
       name: 'login',
       components: { default: Login, header: MainNavbar },
-      props: {
-        header: { colorOnScroll: 400 }
-      }
-    },
-    {
-      path: '/paja',
-      name: 'paja',
-      components: { default: Paja, header: MainNavbar },
       props: {
         header: { colorOnScroll: 400 }
       }
