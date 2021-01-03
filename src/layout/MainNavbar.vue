@@ -30,26 +30,18 @@
     </template>
     <template slot="navbar-menu">
       <li class="nav-item">
-        <a
-          v-popover:popover2
-          class="nav-link"
-          href="https://www.direktnademokratija.me"
-          target="_blank"
-        >
+        <router-link v-popover:popover2 class="nav-link btn-primary" to="/">
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>Home</p>
-        </a>
+        </router-link>
       </li>
       <li class="nav-item">
-        <a
-          v-popover:popover2
-          class="nav-link"
-          href="https://www.direktnademokratija.me"
-          target="_blank"
-        >
+        <router-link v-popover:popover2 class="nav-link" to="/international">
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
-          <p>International resources</p>
-        </a>
+          <p>
+            International resources
+          </p>
+        </router-link>
         <el-popover
           ref="popover2"
           popper-class="popover"
@@ -58,28 +50,18 @@
           trigger="hover"
         >
           <div class="popover-body">
-            Dio smo međunarodnog tima.
+            Dio smo međunarodnog pokreta.
           </div>
         </el-popover>
       </li>
       <li class="nav-item">
-        <a
-          v-popover:popover2
-          class="nav-link"
-          href="https://www.direktnademokratija.me"
-          target="_blank"
-        >
+        <router-link v-popover:popover2 class="nav-link" to="/about">
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>O nama</p>
-        </a>
+        </router-link>
       </li>
       <li class="nav-item">
-        <a
-          v-popover:popover5
-          class="nav-link btn btn-neutral"
-          href="https://www.direktnademokratija.me/manifest"
-          target="_blank"
-        >
+        <a v-popover:popover5 class="nav-link btn btn-neutral" target="_blank">
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>Statut</p>
         </a>
@@ -107,27 +89,27 @@
         </router-link>
       </li>
       <li class="nav-item">
-        <a
+        <router-link
           v-popover:popover2
           class="nav-link"
-          href="https://www.direktnademokratija.me"
+          to="/global"
           target="_blank"
         >
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>Globalni projekat</p>
-        </a>
+        </router-link>
       </li>
 
       <li class="nav-item">
-        <a
+        <router-link
           v-popover:popover2
           class="nav-link"
-          href="https://www.direktnademokratija.me"
+          to="/sugestions"
           target="_blank"
         >
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>Sugestije</p>
-        </a>
+        </router-link>
       </li>
       <li class="nav-item">
         <a
