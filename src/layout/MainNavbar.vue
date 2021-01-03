@@ -61,13 +61,23 @@
         </el-popover>
       </li>
       <li class="nav-item" @click="aboutClicked">
-        <router-link v-popover:popover2 class="nav-link" to="/about">
+        <router-link
+          v-popover:popover2
+          class="nav-link"
+          :class="{ 'btn-neutral': isAbout }"
+          to="/about"
+        >
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>O nama</p>
         </router-link>
       </li>
       <li class="nav-item" @click="statutClicked">
-        <a v-popover:popover5 class="nav-link" target="_blank">
+        <a
+          v-popover:popover5
+          class="nav-link"
+          :class="{ 'btn-neutral': isStatut }"
+          target="_blank"
+        >
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>Statut</p>
         </a>
@@ -205,6 +215,15 @@ export default {
     },
     statutClicked() {
       this.currentStatus = STATUS_STATUT;
+    },
+    localClicked() {
+      this.currentStatus = STATUS_LOCAL;
+    },
+    globalClicked() {
+      this.currentStatus = STATUS_GLOBAL;
+    },
+    suggestionsClicked() {
+      this.currentStatus = STATUS_SUGGESTIONS;
     },
   },
 };
