@@ -92,19 +92,34 @@
         </el-popover>
       </li>
       <li class="nav-item" @click="localClicked">
-        <router-link v-popover:popover2 class="nav-link" to="/local">
+        <router-link
+          v-popover:popover2
+          :class="{ 'btn-neutral': isLocal }"
+          class="nav-link"
+          to="/local"
+        >
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>Lokalni projekti</p>
         </router-link>
       </li>
       <li class="nav-item" @click="globalClicked">
-        <router-link v-popover:popover2 class="nav-link" to="/global">
+        <router-link
+          v-popover:popover2
+          class="nav-link"
+          :class="{ 'btn-neutral': isGlobal }"
+          to="/global"
+        >
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>Globalni projekat</p>
         </router-link>
       </li>
       <li class="nav-item" @click="suggestionsClicked">
-        <router-link v-popover:popover2 class="nav-link" to="/sugestions">
+        <router-link
+          v-popover:popover2
+          class="nav-link"
+          :class="{ 'btn-neutral': isSuggestions }"
+          to="/sugestions"
+        >
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>Sugestije</p>
         </router-link>

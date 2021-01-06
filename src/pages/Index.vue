@@ -9,13 +9,21 @@
       <div class="container">
         <div class="content-center brand">
           <img class="n-logo" src="img/now-logo.png" alt="" />
-          <h1 class="h1-seo">Izađimo iz gliba 😊</h1>
+          <h1 class="h1-seo">
+            NVO Centar Direktne Demokratije.
+          </h1>
           <h4>
             Odgajimo zdravu Crnu Goru. Srušimo nepotrebne barijere.
           </h4>
-          <h2>
-            Centar Direktne Demokratije.
-          </h2>
+          <h2></h2>
+          <a
+            title="Peticija"
+            data-placement="bottom"
+            href="https://www.peticije.online/298227?s=79541705"
+            target="_blank"
+          >
+            <h2>Potpiši peticiju podrške</h2>
+          </a>
         </div>
         <h6 class="category category-absolute">
           Designed & coded by CDD Crna Gora.
@@ -46,18 +54,18 @@
         <div class="row justify-content-md-center">
           <div class="col-md-12 col-lg-8">
             <h2 class="title">
-              Подршка развоју Директне Демократије у Црној Гори
+              Podrška razvoju direktne demokratije u Crnoj Gori
             </h2>
             <h5 class="description">
-              Наш циљ је да укинемо страначке и све друге баријере у дијалогу.
-              Да све људе који су незадовољни досадашњим стањем политчког живота
-              у нашој држави, ујединимо, њихова мишљења укрупнимо, учинимо
-              видљивим и тако створимо колективну снагу која ће моћи јавно да
-              презентује сваки проблем поштујући захтјев општег добра. Сви
-              добронамјерни људи без обзира на страначку, вјерску или било коју
-              другу припадност, имаће прилику да предлажу и да учествују у
-              креирању свих садржаја, којима ћемо се јавно бавити Укључите се
-              активно и директно у политику!
+              Cilj nam je ukloniti stranačke i sve ostale prepreke u dijalogu.
+              Ujediniti sve ljude koji su nezadovoljni trenutnim stanjem
+              političkog života u našoj zemlji, proširiti njihova mišljenja,
+              učiniti ih vidljivima i na taj način stvoriti kolektivnu silu koja
+              će svaki problem moći javno predstaviti, poštujući zahtjev općeg
+              dobra. Svi dobronamjerni ljudi, bez obzira na stranačku, vjersku
+              ili bilo koju drugu pripadnost, imat će priliku predlagati i
+              sudjelovati u stvaranju svih sadržaja kojima ćemo se baviti javno.
+              Uključite se aktivno i direktno u politiku!
             </h5>
           </div>
         </div>
