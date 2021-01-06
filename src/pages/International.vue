@@ -8,7 +8,7 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">International.</h1>
+          <h1 class="title">International Resources.</h1>
           <div class="text-center">
             <a href="#pablo" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-facebook-square"></i>
@@ -28,6 +28,8 @@
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title">Who we are?</h2>
+            <img v-lazy="'img/di.png'" alt="Rounded Image" class="rounded" />
+
             <h5 class="description">
               According to the National Oceanic and Atmospheric Administration,
               Ted, Scambos, NSIDClead scentist, puts the potentially record low
@@ -227,23 +229,23 @@
   </div>
 </template>
 <script>
-import { Button, FormGroupInput } from '@/components';
+import { Button, FormGroupInput } from "@/components";
 export default {
-  name: 'international',
-  bodyClass: 'landing-page',
+  name: "international",
+  bodyClass: "landing-page",
   components: {
     [Button.name]: Button,
-    [FormGroupInput.name]: FormGroupInput
+    [FormGroupInput.name]: FormGroupInput,
   },
   data() {
     return {
       form: {
-        firstName: '',
-        email: '',
-        message: ''
-      }
+        firstName: "",
+        email: "",
+        message: "",
+      },
     };
-  }
+  },
 };
 </script>
 <style></style>
