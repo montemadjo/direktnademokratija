@@ -7,7 +7,7 @@
     menu-classes="ml-auto"
   >
     <template>
-      <router-link v-popover:popover1 class="navbar-brand" to="/">
+      <router-link class="navbar-brand" to="/">
         <img
           class="n-logo"
           src="img/now-logo-full.png"
@@ -16,33 +16,16 @@
         />
         CDD Crna Gora
       </router-link>
-      <el-popover
-        ref="popover1"
-        popper-class="popover"
-        placement="bottom"
-        width="200"
-        trigger="hover"
-      >
-        <div class="popover-body">
-          Zajedno možemo mnogo. Pogledaj kako da nam se pridružiš.
-        </div>
-      </el-popover>
     </template>
     <template slot="navbar-menu">
       <li class="nav-item" @click="homeClicked">
-        <router-link
-          v-popover:popover2
-          class="nav-link"
-          :class="{ 'btn-neutral': isHome }"
-          to="/"
-        >
+        <router-link class="nav-link" :class="{ 'btn-neutral': isHome }" to="/">
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>Home</p>
         </router-link>
       </li>
       <li class="nav-item" @click="internationalClicked">
         <router-link
-          v-popover:popover2
           class="nav-link"
           :class="{ 'btn-neutral': isInternational }"
           to="/international"
@@ -50,19 +33,9 @@
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>International resources</p>
         </router-link>
-        <el-popover
-          ref="popover2"
-          popper-class="popover"
-          placement="bottom"
-          width="200"
-          trigger="hover"
-        >
-          <div class="popover-body">Dio smo međunarodnog pokreta.</div>
-        </el-popover>
       </li>
       <li class="nav-item" @click="aboutClicked">
         <router-link
-          v-popover:popover2
           class="nav-link"
           :class="{ 'btn-neutral': isAbout }"
           to="/about"
@@ -73,7 +46,6 @@
       </li>
       <li class="nav-item" @click="statutClicked">
         <a
-          v-popover:popover5
           class="nav-link"
           :class="{ 'btn-neutral': isStatut }"
           target="_blank"
@@ -81,15 +53,6 @@
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>Statut</p>
         </a>
-        <el-popover
-          ref="popover5"
-          popper-class="popover"
-          placement="bottom"
-          width="200"
-          trigger="hover"
-        >
-          <div class="popover-body">Skinite i pročitajte naš Statut.</div>
-        </el-popover>
       </li>
       <li class="nav-item" @click="localClicked">
         <router-link
