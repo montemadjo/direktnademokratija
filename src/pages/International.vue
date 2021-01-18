@@ -16,55 +16,25 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title"></h2>
-            <img
-              v-lazy="'img/di.png'"
-              style="max-width:210px"
-              alt="Rounded Image"
-              class="rounded"
-            />
-
+            <h4 class="title">Democracy International</h4>
+            <a
+              class="nav-link"
+              :class="{ 'btn-neutral': isHome }"
+              href="https://www.democracy-international.org/"
+              target="_blank"
+            >
+              <img
+                v-lazy="'img/di.png'"
+                style="max-width:210px"
+                alt="Rounded Image"
+                class="rounded"
+              />
+            </a>
             <h5 class="description">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record low
-              maximum sea ice extent tihs year down to low ice extent in the
-              Pacific and a late drop in ice extent in the Barents Sea.
-            </h5>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title"></h2>
-            <img
-              v-lazy="'img/di.png'"
-              style="max-width:210px"
-              alt="Rounded Image"
-              class="rounded"
-            />
-
-            <h5 class="description">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record low
-              maximum sea ice extent tihs year down to low ice extent in the
-              Pacific and a late drop in ice extent in the Barents Sea.
-            </h5>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title"></h2>
-            <img
-              v-lazy="'img/di.png'"
-              style="max-width:210px"
-              alt="Rounded Image"
-              class="rounded"
-            />
-
-            <h5 class="description">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record low
-              maximum sea ice extent tihs year down to low ice extent in the
-              Pacific and a late drop in ice extent in the Barents Sea.
+              Democracy means that power rests with the people and not with
+              kings, aristocrats, or technocrats. This is the core principle of
+              democracy. Yet unfortunately, real democracy too often is not
+              realised...
             </h5>
           </div>
         </div>

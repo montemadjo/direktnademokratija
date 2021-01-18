@@ -10,10 +10,10 @@
         <div class="content-center brand">
           <img class="n-logo" src="img/now-logo.png" alt="" />
           <h1 class="h1-seo">
-            NVO Centar Direktne Demokratije.
+            NVO Inicijativa Direktne Demokratije
           </h1>
           <h4>
-            Odgajimo zdravu Crnu Goru. Srušimo nepotrebne barijere.
+            BUDI DIREKTAN
           </h4>
           <h2></h2>
           <a
