@@ -7,8 +7,15 @@
       >
       </parallax>
       <div class="content-center">
+        <img
+          class="n-logo"
+          style="max-height:150px"
+          src="img/now-logo.png"
+          alt=""
+        />
+
         <div class="container">
-          <h1 class="title">Lokalni projekti.</h1>
+          <h1 class="title">Lokalni projekti</h1>
           <div class="text-center">
             <a href="#pablo" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-facebook-square"></i>
