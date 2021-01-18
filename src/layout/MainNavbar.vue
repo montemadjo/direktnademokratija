@@ -14,7 +14,7 @@
           style="max-height: 25px"
           alt=""
         />
-        CDD Crna Gora
+        IDD Crna Gora
       </router-link>
     </template>
     <template slot="navbar-menu">

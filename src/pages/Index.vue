@@ -7,26 +7,44 @@
       >
       </parallax>
       <div class="container">
-        <div class="content-center brand">
-          <img class="n-logo" src="img/now-logo.png" alt="" />
-          <h1 class="h1-seo">
+        <div class="content-center">
+          <img
+            class="n-logo"
+            style="max-height:150px"
+            src="img/now-logo.png"
+            alt=""
+          />
+          <h2 class="h1-seo">
             NVO Inicijativa Direktne Demokratije
-          </h1>
+          </h2>
           <h4>
             BUDI DIREKTAN
           </h4>
           <h2></h2>
           <a
+            style="margin-bottom:70px;"
             title="Peticija"
             data-placement="bottom"
             href="https://www.peticije.online/298227?s=79541705"
             target="_blank"
           >
-            <h2>Potpiši peticiju podrške</h2>
+            <h3>Potpiši peticiju podrške</h3>
           </a>
+          <div>
+            <h5>
+              Ciljevi udruženja su :
+            </h5>
+            <p>
+              1. Promocija Direktne Demokratije
+            </p>
+            <p>
+              2. Promocija društvenog dijaloga
+            </p>
+            <p>3. Promocija transparentnosti u svim javnim organizacijama</p>
+          </div>
         </div>
         <h6 class="category category-absolute">
-          Designed & coded by CDD Crna Gora.
+          Designed & coded by IDD Crna Gora.
         </h6>
       </div>
     </div>

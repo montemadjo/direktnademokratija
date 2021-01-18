@@ -19,7 +19,7 @@
           </li>
         </ul>
       </nav>
-      <div class="copyright">&copy; {{ year }}, Designed by CDD Crna Gora.</div>
+      <div class="copyright">&copy; {{ year }}, Designed by IDD Crna Gora.</div>
     </div>
   </footer>
 </template>
