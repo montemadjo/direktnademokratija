@@ -36,15 +36,13 @@
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title">Glas doktora NKB</h2>
             <h5 class="description">
-              Da li smatrate da ljekari Specijalne bolnice za plućne bolesti
-              Brezovik, treba aktivnije da se uključe u liječenje pacijenata
-              oboljelih od Covid-19?
+              Da li smatrate da treba formirati Koordinacioni COVID centar u Nikšiću?
             </h5>
             <p>
-              Naime, smatramo nedopustivim da Opšta Bolnica Nikšić, koja je
-              regionalni kovid centar nema koordinisan rad sa Specijalnom
-              bolnicom u Brezoviku. Ukoliko postoje neki lični animoziteti i
-              nesaradanja direktora ili osoblja, ti problemi se moraju
+              Naime, smatramo veoma potrebnim da Opšta Bolnica Nikšić, koja je
+              regionalni kovid centar ima bolje koordinisan rad sa Specijalnom
+              bolnicom u Brezoviku. Ukoliko postoje bilo kakvi lični animoziteti i
+              nesaradanja između osoblja, ti problemi se moraju
               prevazići. To bi se moglo riješiti upućivanjem inicijative
               Ministarstvu zdravlja, kojom bi se tražilo:
             </p>
@@ -80,20 +78,20 @@
         <div class="separator separator-primary"></div>
         <div class="section-story-overview">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
               <div
                 class="image-container"
                 style="background-image: url('img/gd_1.png')"
               >
               </div>
             </div>
-            <div class="col-md-6">
+            <!-- <div class="col-md-6">
               <div
                 class="image-container"
                 style="background-image: url('img/gd_2.png')"
               >
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
