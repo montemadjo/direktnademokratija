@@ -3,13 +3,13 @@
     <div class="page-header page-header-small">
       <parallax
         class="page-header-image"
-        style="background-image: url('img/bg6.jpg')"
+        style="background-image: url('img/bg-project.jpg')"
       >
       </parallax>
       <div class="content-center">
         <img
           class="n-logo"
-          style="max-height:150px"
+          style="max-height: 150px"
           src="img/now-logo.png"
           alt=""
         />
@@ -34,12 +34,46 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Who we are?</h2>
+            <h2 class="title">Glas doktora NKB</h2>
             <h5 class="description">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record low
-              maximum sea ice extent tihs year down to low ice extent in the
-              Pacific and a late drop in ice extent in the Barents Sea.
+              Da li smatrate da ljekari Specijalne bolnice za plućne bolesti
+              Brezovik, treba aktivnije da se uključe u liječenje pacijenata
+              oboljelih od Covid-19?
+            </h5>
+            <p>
+              Naime, smatramo nedopustivim da Opšta Bolnica Nikšić, koja je
+              regionalni kovid centar nema koordinisan rad sa Specijalnom
+              bolnicom u Brezoviku. Ukoliko postoje neki lični animoziteti i
+              nesaradanja direktora ili osoblja, ti problemi se moraju
+              prevazići. To bi se moglo riješiti upućivanjem inicijative
+              Ministarstvu zdravlja, kojom bi se tražilo:
+            </p>
+            <p>1. Stvaranje Koordinacionog centra za ove dvije bolnice.</p>
+            <p>
+              2. Koordinacioni centar bi rukovodio rasporedom i organizacijom
+              liječenja covid pacijenata u obije bolnice.
+            </p>
+            <p>
+              3. Koordinacioni centar bi primao izvještaje iz obije bolnice o
+              broju oboljelih, životno ugroženih pacijenata, smještajnim
+              kapacitetima, zauzetosti kreveta, prosječnom broju dana liječenja
+              pacijenta i svom drugom statistikom neophodnom za donošenje
+              adekvatnih odluka.
+            </p>
+            <p>
+              4. Koordinacioni centar bi organizovao ... neophodnih za liječenje
+              ove specifične bolesti
+            </p>
+            <p>
+              5. Predsjednik Koordinacionog centra bi bio infektolog, zamjenik
+              bi bio pulmolog. Na ovaj način bi se Covid centar Opšte bolnice u
+              Nikšiću organizovao u jednu cjelinu sa Specijalnom bolnicom
+              Brezovik, čime bi liječenje bilo efikasnije, a pritisak na
+              zaposlene manji.
+            </p>
+            <h5 class="description">
+              Da li se slažete da prema Ministarstvu zdravlja uputimo ovakvu
+              inicijativu i objavimo je u medijima?
             </h5>
           </div>
         </div>
@@ -48,61 +82,17 @@
           <div class="row">
             <div class="col-md-6">
               <div
-                class="image-container image-left"
-                style="background-image: url('img/bg13.jpg')"
+                class="image-container"
+                style="background-image: url('img/gd_1.png')"
               >
-                <!-- First image on the left side -->
-                <p class="blockquote blockquote-primary">
-                  "Over the span of the satellite record, Arctic sea ice has
-                  been declining significantly, while sea ice in the
-                  Antarctichas increased very slightly"
-                  <br />
-                  <br />
-                  <small>-NOAA</small>
-                </p>
               </div>
-              <!-- Second image on the left side of the article -->
+            </div>
+            <div class="col-md-6">
               <div
                 class="image-container"
-                style="background-image: url('img/bg13.jpg')"
-              ></div>
-            </div>
-            <div class="col-md-5">
-              <!-- First image on the right side, above the article -->
-              <div
-                class="image-container image-right"
-                style="background-image: url('img/bg13.jpg')"
-              ></div>
-              <h3>
-                So what does the new record for the lowest level of winter ice
-                actually mean
-              </h3>
-              <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
-              </p>
-              <p>
-                For a start, it does not automatically follow that a record
-                amount of ice will melt this summer. More important for
-                determining the size of the annual thaw is the state of the
-                weather as the midnight sun approaches and temperatures rise.
-                But over the more than 30 years of satellite records, scientists
-                have observed a clear pattern of decline, decade-by-decade.
-              </p>
-              <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
-              </p>
+                style="background-image: url('img/gd_2.png')"
+              >
+              </div>
             </div>
           </div>
         </div>
@@ -192,7 +182,7 @@
         </div>
       </div>
     </div> -->
-    <div class="section section-contact-us text-center">
+    <!-- <div class="section section-contact-us text-center">
       <div class="container">
         <h2 class="title">Want to work with us?</h2>
         <p class="description">Your project is very important to us.</p>
@@ -230,7 +220,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

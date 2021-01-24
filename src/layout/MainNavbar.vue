@@ -47,7 +47,7 @@
         <a
           class="nav-link"
           :class="{ 'btn-neutral': isStatut }"
-          target="_blank"
+          href="https://files.fm/down.php?i=2drnjcyd3"
         >
           <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i> -->
           <p>Statut</p>
